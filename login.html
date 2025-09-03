@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <title>LOGIN | BPKAD</title>
+  </head>
+
+  <body class="bg-blue-50 min-h-screen flex items-center justify-center">
+    <div class="bg-white shadow-lg rounded-lg flex flex-col md:flex-row w-11/12 max-w-6xl overflow-hidden">
+      
+      <!-- Left Side - Login Form -->
+      <div class="w-full md:w-1/2 p-8 flex flex-col justify-center">
+        <!-- Logo -->
+        <div class="flex items-center justify-center mb-6">
+          <div class="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center">
+            <img src="img/logo.png" alt="" />
+          </div>
+          <div class="ml-3 flex flex-col">
+            <h1 class="text-xl font-bold text-blue-700">SMART BKAD</h1>
+            <p class="text-sm text-gray-600">Pemerintah Kota Bogor</p>
+          </div>
+        </div>
+
+        <h2 class="text-2xl font-semibold mb-6 text-center">Login</h2>
+
+        <form class="space-y-4 mb-3">
+          <div>
+            <label class="block text-sm font-medium text-gray-500">Username / No. Pegawai</label>
+            <input type="text" class="w-full mt-1 border rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Masukkan Username atau Nomor Pegawai" />
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-500">Password</label>
+            <input type="password" class="w-full mt-1 border rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Masukkan Password" />
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-500">Tahun</label>
+            <select class="w-full mt-1 border rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+              <option>2025</option>
+              <option>2024</option>
+              <option>2023</option>
+              <option>2022</option>
+            </select>
+          </div>
+
+          <div>
+            <div class="flex gap-3 items-center">
+              <img src="img/default.png" class="flex items-center space-x-2 mt-1" />
+              <button class="bg-red-500 rounded hover:bg-red-700">
+                <img src="img/reset.png" alt="" class="w-6 h-6 p-1">
+              </button>
+            </div>
+            <input type="text" class="w-full mt-1 border rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Masukkan captcha" />
+          </div>
+
+          <div class="flex items-center justify-between space-x-2">
+            <div>
+              <input type="checkbox" id="remember" />
+              <label for="remember" class="text-sm">Remember me</label>
+            </div>
+            <a href="#" class="text-sm text-blue-600 hover:underline">Forgot Password?</a>
+          </div>
+
+          <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">
+            Masuk
+          </button>
+        </form>
+
+        <hr class="border-t-1 border-gray-400" />
+        <p class="text-center text-xs text-gray-500 mt-6">
+          © 2023 SMART BKAD | Pemerintah Kota Bogor
+        </p>
+      </div>
+
+      <!-- Right Side - Image (Hidden on Mobile) -->
+      <div class="hidden md:flex w-full md:w-1/2 bg-blue-400 flex-col items-center justify-center p-8">
+        <!-- Box Maklumat -->
+        <div class="bg-white p-4 rounded-lg shadow-lg max-w-lg w-full flex justify-center">
+          <img src="img/maklumat-pelayanan.png" alt="Maklumat Pelayanan" class="max-w-full h-auto rounded" />
+        </div>
+
+        <!-- Box Logo bawah -->
+        <div class="mt-6 bg-white rounded-lg shadow p-4 flex items-center space-x-6">
+          <img src="img/bsre.jpeg" alt="BSrE Logo" class="h-12 object-contain" />
+          <img src="img/iso27001.png" alt="ISO 27001" class="h-12 object-contain" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
