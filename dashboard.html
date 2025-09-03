@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - R. Ilham Firnadi Anugrah</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans min-h-screen">
+  <div class="max-w-5xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden my-8">
+    
+    <!-- Header Section -->
+    <div class="relative h-52 rounded-t-xl bg-cover bg-center" style="background-image: url('bgcoy.webp');">
+      <div class="absolute bottom-[-50px] left-1/2 -translate-x-1/2 w-24 h-24 rounded-full border-4 border-white bg-gray-300 shadow-lg flex items-center justify-center overflow-hidden">
+        <i class="bx bxs-user text-5xl text-gray-500"></i>
+      </div>
+    </div>
+    
+    <!-- User Information -->
+    <div class="mt-16 text-center pb-2">
+      <h2 class="text-xl font-semibold text-gray-800">R. Ilham Firnadi Anugrah, S.Kom.</h2>
+      <p class="text-gray-600 mt-1">Tahun 2025</p>
+    </div>
+    
+    <!-- Menu Grid -->
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 p-6 mt-4">
+      
+      <!-- Pergeseran Anggaran -->
+      <div class="relative bg-white rounded-xl shadow-md hover:shadow-lg p-4 flex flex-col items-center transition duration-300 hover:-translate-y-1 cursor-pointer border">
+        <i class="bx bx-upload text-3xl text-blue-500 mb-2"></i>
+        <div class="text-sm font-medium text-center text-gray-700">Pergeseran Anggaran</div>
+        <span class="absolute -top-2 -right-2 bg-green-500 text-white text-xs font-bold px-2 py-1 rounded-full">0</span>
+      </div>
+
+      <!-- Produk Hukum -->
+      <div class="bg-white rounded-xl shadow-md hover:shadow-lg p-4 flex flex-col items-center transition duration-300 hover:-translate-y-1 cursor-pointer border">
+        <i class="bx bx-building text-3xl text-blue-500 mb-2"></i>
+        <div class="text-sm font-medium text-center text-gray-700">Produk Hukum</div>
+      </div>
+
+      <!-- SOP -->
+      <div class="bg-white rounded-xl shadow-md hover:shadow-lg p-4 flex flex-col items-center transition duration-300 hover:-translate-y-1 cursor-pointer border">
+        <i class="bx bx-file text-3xl text-blue-500 mb-2"></i>
+        <div class="text-sm font-medium text-center text-gray-700">SOP</div>
+      </div>
+
+      <!-- Request -->
+      <div class="bg-white rounded-xl shadow-md hover:shadow-lg p-4 flex flex-col items-center transition duration-300 hover:-translate-y-1 cursor-pointer border">
+        <i class="bx bx-edit text-3xl text-blue-500 mb-2"></i>
+        <div class="text-sm font-medium text-center text-gray-700">Request</div>
+      </div>
+
+      <!-- Surat Keluar -->
+      <div class="relative bg-white rounded-xl shadow-md hover:shadow-lg p-4 flex flex-col items-center transition duration-300 hover:-translate-y-1 cursor-pointer border">
+        <i class="bx bx-mail-send text-3xl text-blue-500 mb-2"></i>
+        <div class="text-sm font-medium text-center text-gray-700">Surat Keluar</div>
+        <span class="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full">2</span>
+      </div>
+
+      <!-- Surat Masuk -->
+      <div class="relative bg-white rounded-xl shadow-md hover:shadow-lg p-4 flex flex-col items-center transition duration-300 hover:-translate-y-1 cursor-pointer border">
+        <i class="bx bx-inbox text-3xl text-blue-500 mb-2"></i>
+        <div class="text-sm font-medium text-center text-gray-700">Surat Masuk</div>
+        <span class="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full">4</span>
+      </div>
+
+      <!-- TTD SKPP -->
+      <div class="relative bg-white rounded-xl shadow-md hover:shadow-lg p-4 flex flex-col items-center transition duration-300 hover:-translate-y-1 cursor-pointer border">
+        <i class="bx bx-pen text-3xl text-blue-500 mb-2"></i>
+        <div class="text-sm font-medium text-center text-gray-700">TTD SKPP</div>
+        <span class="absolute -top-2 -right-2 bg-green-500 text-white text-xs font-bold px-2 py-1 rounded-full">0</span>
+      </div>
+
+      <!-- Verifikasi -->
+      <div class="bg-white rounded-xl shadow-md hover:shadow-lg p-4 flex flex-col items-center transition duration-300 hover:-translate-y-1 cursor-pointer border">
+        <i class="bx bx-user-check text-3xl text-blue-500 mb-2"></i>
+        <div class="text-sm font-medium text-center text-gray-700">Verifikasi</div>
+      </div>
+
+      <!-- EBKU -->
+      <div class="bg-white rounded-xl shadow-md hover:shadow-lg p-4 flex flex-col items-center transition duration-300 hover:-translate-y-1 cursor-pointer border">
+        <i class="bx bx-bar-chart-alt text-3xl text-blue-500 mb-2"></i>
+        <div class="text-sm font-medium text-center text-gray-700">EBKU</div>
+      </div>
+
+      <!-- Rekapitulasi Kehadiran -->
+      <div class="bg-white rounded-xl shadow-md hover:shadow-lg p-4 flex flex-col items-center transition duration-300 hover:-translate-y-1 cursor-pointer border">
+        <i class="bx bx-time text-3xl text-blue-500 mb-2"></i>
+        <div class="text-sm font-medium text-center text-gray-700">Rekapitulasi Kehadiran</div>
+      </div>
+
+      <!-- Persediaan Barang -->
+      <div class="bg-white rounded-xl shadow-md hover:shadow-lg p-4 flex flex-col items-center transition duration-300 hover:-translate-y-1 cursor-pointer border">
+        <i class="bx bx-package text-3xl text-blue-500 mb-2"></i>
+        <div class="text-sm font-medium text-center text-gray-700">Persediaan Barang</div>
+      </div>
+
+      <!-- Rekon -->
+      <div class="bg-white rounded-xl shadow-md hover:shadow-lg p-4 flex flex-col items-center transition duration-300 hover:-translate-y-1 cursor-pointer border">
+        <i class="bx bx-clipboard text-3xl text-blue-500 mb-2"></i>
+        <div class="text-sm font-medium text-center text-gray-700">Rekon</div>
+      </div>
+
+      <!-- Jadwal Kegiatan -->
+      <div class="bg-white rounded-xl shadow-md hover:shadow-lg p-4 flex flex-col items-center transition duration-300 hover:-translate-y-1 cursor-pointer border">
+        <i class="bx bx-calendar text-3xl text-blue-500 mb-2"></i>
+        <div class="text-sm font-medium text-center text-gray-700">Jadwal Kegiatan & Rapat</div>
+      </div>
+
+      <!-- Upload Dokumen -->
+      <div class="bg-white rounded-xl shadow-md hover:shadow-lg p-4 flex flex-col items-center transition duration-300 hover:-translate-y-1 cursor-pointer border">
+        <i class="bx bx-upload text-3xl text-blue-500 mb-2"></i>
+        <div class="text-sm font-medium text-center text-gray-700">Upload Dokumen</div>
+      </div>
+
+      <!-- TTD Kegiatan SPJ -->
+      <div class="bg-white rounded-xl shadow-md hover:shadow-lg p-4 flex flex-col items-center transition duration-300 hover:-translate-y-1 cursor-pointer border">
+        <i class="bx bx-edit-alt text-3xl text-blue-500 mb-2"></i>
+        <div class="text-sm font-medium text-center text-gray-700">TTD Kegiatan SPJ</div>
+      </div>
+
+      <!-- KKPD -->
+      <div class="bg-white rounded-xl shadow-md hover:shadow-lg p-4 flex flex-col items-center transition duration-300 hover:-translate-y-1 cursor-pointer border">
+        <i class="bx bx-wallet text-3xl text-blue-500 mb-2"></i>
+        <div class="text-sm font-medium text-center text-gray-700">KKPD</div>
+      </div>
+
+      <!-- Pakta Integritas -->
+      <div class="bg-white rounded-xl shadow-md hover:shadow-lg p-4 flex flex-col items-center transition duration-300 hover:-translate-y-1 cursor-pointer border">
+        <i class="bx bx-shield text-3xl text-blue-500 mb-2"></i>
+        <div class="text-sm font-medium text-center text-gray-700">Pakta Integritas</div>
+      </div>
+
+      <!-- Monitoring TLHP -->
+      <div class="bg-white rounded-xl shadow-md hover:shadow-lg p-4 flex flex-col items-center transition duration-300 hover:-translate-y-1 cursor-pointer border">
+        <i class="bx bx-line-chart text-3xl text-blue-500 mb-2"></i>
+        <div class="text-sm font-medium text-center text-gray-700">Monitoring TLHP</div>
+      </div>
+      
+    </div>
+
+    <!-- Footer -->
+    <div class="border-t border-gray-100 p-4 text-center text-sm text-gray-500">
+      © 2025 Dashboard Management System
+    </div>
+  </div>
+</body>
+</html>
